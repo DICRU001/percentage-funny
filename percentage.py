@@ -1,7 +1,7 @@
 import pyfiglet
 dicru = pyfiglet.figlet_format("PERCENTAGE CALCULATOR")
 print(dicru)
-print('HI NICE TO MEET YOU. MY NAME IS DICRU")
+print("HI NICE TO MEET YOU. MY NAME IS DICRU")
 c = input("press enter")
 m1 = int(input("ENTER 1 NUMBER = "))
 m2 = int(input("ENTER 2 NUMBER = "))
