@@ -12,7 +12,7 @@ m8 = int(input("enter 8 number = "))
 m9 = int(input("enter 9 number = "))
 m10 = int(input("enter 10 number = "))
 p = (m1+m2+m3+m4+m5+m6+m7+m8+m9+m10)*100/1000
-print("your pecentage is = "p)
+print("your pecentage is = ",p)
 p = int(input("enter your given percentage")
 if p>= 40:
         print("you are passed")
