@@ -1,20 +1,30 @@
 import pyfiglet
-dicru = pyfiglet.figlet_format("CYBER DICRU")
+dicru = pyfiglet.figlet_format("PERCENTAGE CALCULATOR")
 print(dicru)
-m1 = int(input("enter 1 number = "))
-m2 = int(input("enter 2 number = "))
-m3 = int(input("enter 3 number = "))
-m4 = int(input("enter 4 number = "))
-m5 = int(input("enter 5 number = "))
-m6 = int(input("enter 6 number = "))
-m7 = int(input("enter 7 number = "))
-m8 = int(input("enter 8 number = "))
-m9 = int(input("enter 9 number = "))
-m10 = int(input("enter 10 number = "))
+print('HI NICE TO MEET YOU. MY NAME IS DICRU")
+c = input("press enter")
+m1 = int(input("ENTER 1 NUMBER = "))
+m2 = int(input("ENTER 2 NUMBER = "))
+m3 = int(input("ENTER 3 NUMBER = "))
+m4 = int(input("ENTER 4 NUMBER = "))
+m5 = int(input("ENTER 5 NUMBER = "))
+m6 = int(input("ENTER 6 NUMBER = "))
+m7 = int(input("ENTER 7 NUMBER = "))
+m8 = int(input("ENTER 8 NUMBER = "))
+m9 = int(input("ENTER 9 NUMBER = "))
+m10 = int(input("ENTER 10 NUMBER = "))
 p = (m1+m2+m3+m4+m5+m6+m7+m8+m9+m10)*100/1000
 print("your pecentage is = ",p)
-p = int(input("enter your given percentage = "))
+p = int(input("ENTER YOUR GIVEN PERCENTAGE = "))
 if p >= 40 :
-     print("yes you are passed")
+     print("GOOD JOB, YOU ARE PASSED")
 else:
-     print("nice you are failed")
+     print("SO SAD, YOU ARE FAILED")
+
+     
+     
+     
+     
+     
+     
+print("made by cyber dicru")
